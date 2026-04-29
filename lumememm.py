@@ -13,7 +13,7 @@ pygame.display.set_caption("Lumememm – Jonatan Soomets")
 TAEVAS = (135, 206, 235)
 VALGE = (255, 255, 255)
 MUST = (20, 20, 20)
-ORANŽ = (255, 140, 0)
+ORANZ = (255, 140, 0)
 PUNANE = (200, 30, 30)
 
 clock = pygame.time.Clock()
