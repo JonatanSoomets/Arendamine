@@ -9,10 +9,10 @@ WIDTH, HEIGHT = 300, 300
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Foor – Jonatan Soomets")
 
-MUST = (0, 0, 0);
+MUST = (0, 0, 0)
 VALGE = (255, 255, 255)
-PUNANE = (255, 0, 0);
-KOLLANE = (255, 255, 0);
+PUNANE = (255, 0, 0)
+KOLLANE = (255, 255, 0)
 ROHELINE = (0, 255, 0)
 
 clock = pygame.time.Clock()
