@@ -5,7 +5,7 @@ import sys
 
 pygame.init()
 
-WIDTH, HEIGHT = 800, 600
+WIDTH, HEIGHT = 800, 800
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Liikuv ruut - Jonatan Soomets")
 
@@ -31,6 +31,10 @@ while True:
     if klahvid[pygame.K_RIGHT]: x += KIIRUS
     if klahvid[pygame.K_UP]:    y -= KIIRUS
     if klahvid[pygame.K_DOWN]:  y += KIIRUS
+
+    # Piirid
+    x = max(0, min(x, WIDTH - RUUT))
+    y = max(0, min(y, HEIGHT - RUUT))
 
     screen.fill(VALGE)
 
